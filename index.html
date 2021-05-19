@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <style>
+        
+h1{
+    font-size: 40px;  
+}
+.form-image{
+    background: url(6.jpg),linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url() no-repeat center; 
+    background-size: cover;
+    margin-top: -50px;
+    margin-bottom: -200px;
+    height: 100%;
+    width: 100%;
+    position: relative
+}
+
+#example2 {
+    border: 5px ;
+    border-style: solid;
+  border-color: rgb(212,175,55);
+    width: 350px;
+    border-top-style:groove;
+    margin-top: -20px;
+   /* background: url(img_flwr.gif);*/
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  }
+        .p1 {
+   font-family: "Times New Roman", Times, serif;
+        }
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: solid black;
+        }  
+        
+    </style>
+</head>
+<body>
+<div class="form-image">   
+    <main>
+        <center>
+        <h1>
+         <p class="p1" style="font-weight: bold;"> 
+         <br>
+
+       Student Information
+    </p> 
+        </h1>
+    </center>  
+    <br>
+</main>
+<form>
+  <center>     
+    <div id="example2">  
+    <legend><h2 style="font-weight: bold;"><u>Details</u></h2></legend>   
+    <b><label for="name"  style="font-size:20px">Name</label></b><br>
+    <input name="name" style=background-color:rgb(208,208,208); placeholder="Enter your name"><br><br>
+    <b> <label for="" style="font-size:20px" style="font-weight: bold;">Phone Number</label></b><br>
+    <input name="" id=""style=background-color:rgb(208,208,208); placeholder="Enter phone number"><br><br>
+    <b><label for="" style="font-size:20px" style="font-weight: bold;">Email id</label></b><br>
+    <input name="" id="" style=background-color:rgb(208,208,208); placeholder="Enter email id" type="mail"><br><br>
+    <b><label for="" style="font-size:20px" style="font-weight: bold;">Address</label></b><br>
+    <textarea id="Address" name="Address" style=background-color:rgb(208,208,208); placeholder="Enter address" rows="5" cols="40"></textarea><br>
+       <b><p style="font-size:20px" style="font-weight: bold;">Gender</b></p>
+       <b><input type="radio" name="gender" value="male"> Male</b>
+       <b> <input type="radio" name="gender" value="female"> Female</b>
+       <b> <input type="radio" name="gender" value="female"> Others<br></b>
+        <br>
+    
+        <b><label for="" style="font-size:20px" style="font-weight: bold;">Name of college</label></b><br>
+    <input name="" id="" style=background-color:rgb(208,208,208); placeholder="Enter name of college" type=""><br><br>
+    <b><label for=""style="font-size:20px" style="font-weight: bold;">Branch</label></b><br>
+        <select>
+              <datalist id="branch">
+                  <option value="CSE">CSE</option>
+                  <option value="ECE">ECE</option>
+                  <option value="IT">IT</option>
+                  <option value="Mechanical">Mechanical</option>
+                  <option value="Biotech">Biotech</option>
+              </datalist>  
+        </select>
+        <br><br>
+      <input type="submit" style="font-size:20px" style="font-weight: bold;">
+      &nbsp;
+      <button type="reset" style="font-size:20px" style="font-weight: bold;">Reset</button><br><br>
+    </center>  
+    </div> 
+<br>    
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.form-image{
+    background: url(6.jpg) no-repeat center; 
+    background-size: cover;
+    margin-top: -50px;
+    margin-bottom: -200px;
+    height: 100%;
+    width: 100%;
+    position: relative
+}
+#example2 {
+    border: 5px ;
+    border-style: solid;
+  border-color: rgb(212,175,55);
+    width: 350px;
+    border-top-style:groove;
+    margin-top: -20px;
+   /* background: url(img_flwr.gif);*/
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  }
